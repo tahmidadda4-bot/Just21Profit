@@ -549,11 +549,10 @@ fun HomePage(
 ) {
 
     LazyColumn(
-        modifier = Modifier
-            .fillMaxSize()
-            .weight(1f)
-            .padding(bottom = 8.dp)
-    ) {
+    modifier = Modifier
+        .fillMaxSize()
+        .padding(bottom = 8.dp)
+) {
 
         item {
 
